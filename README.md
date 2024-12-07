@@ -42,22 +42,7 @@ python log_analysis.py
    Save the results to a CSV file (log_analysis_results.csv).
    
 Example Output
-IP Activity Summary:
-IP Address          Request Count
------------------------------------
-203.0.113.5         8
-198.51.100.23       8
-192.168.1.1         7
-10.0.0.2            6
-192.168.1.100       5
+![image](https://github.com/user-attachments/assets/5e66e932-7992-46dd-858e-9a45bbf59b9e)
 
-Most Frequently Accessed Endpoint:
-/login (Accessed 13 times)
-
-Suspicious Activity Summary:
-IP Address          Failed Login Count
------------------------------------
-203.0.113.5         5
-192.168.1.100       3
 
 
