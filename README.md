@@ -29,4 +29,34 @@ This Python script analyzes a log file to provide insights into the requests mad
 
 1. Clone the repository:
    ```bash
-   git clone https://shadow-123-max/Log-Analysis-Script
+  [ git clone https://shadow-123-max/Log-Analysis-Script](https://github.com/shadow-123-max/Log-Analysis-Script)
+  
+2.Place your log file (e.g., sample.log) in the same directory or update the file_path in the script accordingly.
+Run the script:
+python log_analysis.py
+
+3.The script will:
+   Parse the log file.
+   Display the analysis results in the terminal.
+   Save the results to a CSV file (log_analysis_results.csv).
+   
+Example Output
+IP Activity Summary:
+IP Address          Request Count
+-----------------------------------
+203.0.113.5         8
+198.51.100.23       8
+192.168.1.1         7
+10.0.0.2            6
+192.168.1.100       5
+
+Most Frequently Accessed Endpoint:
+/login (Accessed 13 times)
+
+Suspicious Activity Summary:
+IP Address          Failed Login Count
+-----------------------------------
+203.0.113.5         5
+192.168.1.100       3
+
+
