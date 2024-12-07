@@ -29,6 +29,7 @@ This Python script analyzes a log file to provide insights into the requests mad
 
 1. Clone the repository:
    ```bash
+   https://github.com/shadow-123-max/Log-Analysis-Script
   [ git clone https://shadow-123-max/Log-Analysis-Script](https://github.com/shadow-123-max/Log-Analysis-Script)
   
 2.Place your log file (e.g., sample.log) in the same directory or update the file_path in the script accordingly.
